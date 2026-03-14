@@ -11,7 +11,7 @@ const FEATURES = [
 ];
 
 const STACK  = [["⚛", "#4fc3f7", "React"], ["🐍", "#ffd700", "Python"], ["⚡", "#00ff88", "FastAPI"]];
-const LINKS  = [["GITHUB", () => window.open("https://github.com/AnushkaWaghmode", "_blank")], ["DOCS", null], ["LINKEDIN", () => window.open("https://linkedin.com", "_blank")]];
+const LINKS  = [["GITHUB", () => window.open("https://github.com/AnushkaWaghmode", "_blank")], ["DOCS", null], ["LINKEDIN", () => window.open("https://www.linkedin.com/in/anushka-waghmode-89559a374/", "_blank")]];
 
 export default function HomePage({ onNav }) {
   const [sim, setSim] = useState(false);
