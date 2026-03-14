@@ -152,9 +152,6 @@ Output goes to the `dist/` folder. Deploy to any static host (Vercel, Netlify, G
 
 ---
 
-## 📄 License
-
-MIT — free to use and modify.
 
 ---
 
