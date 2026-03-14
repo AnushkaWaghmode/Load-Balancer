@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import Navbar        from "./components/Navbar";
 import HomePage      from "./pages/HomePage";
-import DashboardPage from "./pages/DashboardPage";
+import DashboardPage from  "./pages/DashBoardPage";
 import DocsPage      from "./pages/DocsPage";
  
 export default function App() {
