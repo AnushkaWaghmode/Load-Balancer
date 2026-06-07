@@ -1,13 +1,13 @@
 # Load-Balancer-
-# ⚡ LOADCTL — Smart Load Balancer Dashboard
+#  LOADCTL — Smart Load Balancer Dashboard
 
 A real-time load balancer dashboard built with **React + Vite**. Visualizes how traffic is distributed across multiple servers using the **Least-Connections algorithm**.
 
-> ⚠️ This is a **frontend-only demo** — all server data is simulated using JavaScript. No backend required to run.
+>  This is a **frontend-only demo** — all server data is simulated using JavaScript. No backend required to run.
 
 ---
 
-## 📸 Pages
+##  Pages
 
 | Page | Description |
 |------|-------------|
@@ -17,7 +17,7 @@ A real-time load balancer dashboard built with **React + Vite**. Visualizes how 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -30,7 +30,7 @@ A real-time load balancer dashboard built with **React + Vite**. Visualizes how 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -57,7 +57,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -83,7 +83,7 @@ http://localhost:5173
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### Least-Connections Algorithm
 Each incoming request is routed to the server with the **lowest weighted connection count**:
@@ -105,7 +105,7 @@ No real network calls are made — everything runs in the browser.
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 - **Total Requests Counter** — live incrementing request count
 - **Active Connections Chart** — line chart for all 3 servers
@@ -115,7 +115,7 @@ No real network calls are made — everything runs in the browser.
 
 ---
 
-## 🔌 Adding a Real Backend (Optional)
+##  Adding a Real Backend (Optional)
 
 To connect to a real FastAPI backend:
 
@@ -142,7 +142,7 @@ GET  /lb/ws                # WebSocket for live metrics
 
 ---
 
-## 🏗️ Build for Production
+##  Build for Production
 
 ```bash
 npm run build
@@ -155,6 +155,6 @@ Output goes to the `dist/` folder. Deploy to any static host (Vercel, Netlify, G
 
 ---
 
-## 👤 Author
+##  Author
 
 Built with React + Vite. Designed for learning load balancing concepts visually.
